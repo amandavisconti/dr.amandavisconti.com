@@ -390,3 +390,27 @@ background: 0 0;
 body {
 webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.ribbon {
+     background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #d64b4b, #ab2c2c) repeat scroll 0% 0%;
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     width: 300px;
+  margin: 0px auto;
+}
+
+.ribbon a {
+color: #ffffff;
+text-decoration: underline;
+}
+
+.ribbon a:hover {
+text-decoration: none;
+}
+
+.ribbon h1 {
+     font-size: 0.8em;
+     margin: 0px;
+     padding: 15px 10px;
+     text-shadow: 0px 1px 0px #d65c5c;
+}
